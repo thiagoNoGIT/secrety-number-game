@@ -1,5 +1,5 @@
 let listRamdomNumber = [];
-let limitNumber = 100;
+let limitNumber = 500;
 let secretNumber = ramdomNumber ();
 let tentatives = 1
 
@@ -18,7 +18,7 @@ function displayText(tag, text) {
     
     function displayInitialMessage () {
         displayText ('h1', 'Game of secrety number');
-        displayText ('p', 'Choose a number between 1 and 100');
+        displayText ('p', 'Choose a number between 1 and 500');
     }
 
         displayInitialMessage ();
